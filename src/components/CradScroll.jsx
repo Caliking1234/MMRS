@@ -27,7 +27,7 @@ export default function CardScroll() {
   return (
     <main ref={container} className={styles.main}>
       {projects.map((project, i) => {
-        const targetScale = 1 - (projects.length - i) * 0.05;
+        const targetScale = 1 - (projects.length - i) * 0.02;
         return (
           <Card
             key={`p_${i}`}

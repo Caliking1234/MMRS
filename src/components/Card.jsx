@@ -30,13 +30,13 @@ const Card = ({
         style={{
           backgroundColor: color,
           scale,
-          top: `calc(-5vh + ${i * 25}px)`,
+          top: `calc(-5vh + ${i * 5}px)`,
         }}
         className={`${styles.card} md:flex-row flex-col`}
       >
         <h2>{title}</h2>
-        <div className={`${styles.body} flex md:flex-row flex-col`}>
-          <div className={styles.description}>
+        <div className={`${styles.body} flex items-center justify-center`}>
+          {/* <div className={styles.description}>
             <p>{description}</p>
             <span>
               <a href={url} target="_blank">
@@ -55,11 +55,17 @@ const Card = ({
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
 
           <div className={styles.imageContainer}>
             <motion.div className={styles.inner} style={{ scale: imageScale }}>
-              <Image fill src={`/images/${src}`} alt="image" />
+              <Image
+                height={200}
+                width={200}
+                className=" w-full h-full"
+                src={`/images/${src}`}
+                alt="image"
+              />
             </motion.div>
           </div>
         </div>
