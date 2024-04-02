@@ -15,7 +15,6 @@ const HeroAnimation = () => {
           rotateX: "-90deg",
           rotateY: "45deg",
           opacity: 0,
-          translateY: "-100%",
           duration: 1,
         },
         "<"
@@ -39,9 +38,9 @@ const HeroAnimation = () => {
   return (
     <div
       ref={component}
-      className=" w-full h-screen py-10 flex flex-col items-center justify-center"
+      className=" w-full h-screen py-16 flex flex-col items-center justify-center"
     >
-      <div className=" relative w-full h-full text-left">
+      <div className=" relative w-full h-full text-left overflow-hidden">
         <div
           style={{
             perspective: 1000,
@@ -63,7 +62,7 @@ const HeroAnimation = () => {
           <h1>HAPPY</h1>
         </div>
       </div>
-      <div className=" relative w-full h-full text-left">
+      <div className=" relative w-full h-full text-left overflow-hidden">
         <div
           style={{
             perspective: 1000,
@@ -85,7 +84,7 @@ const HeroAnimation = () => {
           <h1>Birthday</h1>
         </div>
       </div>
-      <div className=" relative w-full h-full text-left">
+      <div className=" relative w-full h-full text-left overflow-hidden">
         <div
           style={{
             perspective: 1000,
