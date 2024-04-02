@@ -16,7 +16,7 @@ const HeroAnimation = () => {
           rotateY: "45deg",
           opacity: 0,
           translateY: "-100%",
-          duration: 0.5,
+          duration: 1,
         },
         "<"
       );
@@ -28,7 +28,7 @@ const HeroAnimation = () => {
           rotateY: "45deg",
           opacity: 1,
           top: 0,
-          duration: 0.5,
+          duration: 1,
         },
         "<"
       );
