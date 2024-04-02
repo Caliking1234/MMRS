@@ -22,7 +22,7 @@ export default function TextAnimation() {
       scrollTrigger: {
         trigger: container.current,
         scrub: true,
-        start: `top`,
+        start: `top 25%`,
         end: `+=${window.innerHeight / 1.5}`,
       },
       opacity: 1,
@@ -49,6 +49,7 @@ export default function TextAnimation() {
           ref={(el) => {
             refs.current.push(el);
           }}
+          className=" text-5xl md:text-7xl"
         >
           {letter}
         </span>

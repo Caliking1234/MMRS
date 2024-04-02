@@ -32,10 +32,10 @@ const Card = ({
           scale,
           top: `calc(-5vh + ${i * 25}px)`,
         }}
-        className={styles.card}
+        className={`${styles.card} md:flex-row flex-col`}
       >
         <h2>{title}</h2>
-        <div className={styles.body}>
+        <div className={`${styles.body} flex md:flex-row flex-col`}>
           <div className={styles.description}>
             <p>{description}</p>
             <span>

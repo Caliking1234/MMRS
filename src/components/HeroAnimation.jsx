@@ -16,6 +16,7 @@ const HeroAnimation = () => {
           rotateY: "45deg",
           opacity: 0,
           duration: 1,
+          stagger: 0.5,
         },
         "<"
       );
@@ -28,6 +29,7 @@ const HeroAnimation = () => {
           opacity: 1,
           top: 0,
           duration: 1,
+          stagger: 0.5,
         },
         "<"
       );
