@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 
 const phrase =
-  "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.";
+  "4 years back if someone would have told me that Megha will be one of your closest frinends to main nahi manta ,but here we are two mentally unstable backchods.The best part of being your frined has been the counsil of meghas and i have met a few of them";
 
 export default function TextAnimation() {
   let refs = useRef([]);

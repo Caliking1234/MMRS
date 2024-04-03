@@ -16,7 +16,7 @@ export const projects = [
     color: "#977F6D",
   },
   {
-    title: "The BAckchod",
+    title: "The Backchod",
     description:
       "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
     src: "the-backchod.jpg",
