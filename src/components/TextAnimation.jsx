@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 
 const phrase =
-  "4 years back if someone would have told me that Megha will be one of your closest frinends to main nahi manta ,but here we are two mentally unstable backchods.The best part of being your frined has been the counsil of meghas and i have met a few of them";
+  "4 years back if someone would have told me that Megha will be one of your closest friends to main nahi manta ,but here we are two mentally unstable backchods.The best part of being your friend has been the counsil of meghas and i have met a few of them";
 
 export default function TextAnimation() {
   let refs = useRef([]);
