@@ -52,7 +52,7 @@
       .imageContainer {
         position: relative;
         width: 95%;
-        height: 90%;
+        height: calc(100% - 100px);
         border-radius: 25px;
         overflow: hidden;
         .inner {
