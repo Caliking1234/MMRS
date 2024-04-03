@@ -49,7 +49,7 @@ export default function TextAnimation() {
           ref={(el) => {
             refs.current.push(el);
           }}
-          className=" text-5xl md:text-7xl"
+          className=" text-4xl md:text-7xl"
         >
           {letter}
         </span>
